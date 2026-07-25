@@ -41,3 +41,6 @@ Read the drop against the rules in [`README.md`](README.md) before anything else
 If a drop fails the brand gate, leave a note next to it in the drop folder naming the
 specific rule and line. Do not silently rewrite an agent drop — the correction should be
 visible so the next run can avoid the same problem.
+
+## Active handoff
+See [`HANDOFF_FROM_COMPUTER.md`](HANDOFF_FROM_COMPUTER.md) — what Hermes should do next for Computer visibility.
