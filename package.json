@@ -1,0 +1,41 @@
+{
+  "name": "deepseek-repository",
+  "version": "1.0.0",
+  "description": "Publications Compliments from the Deepseek Node",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darrylebrown/Deepseek-Repository.git"
+  },
+  "keywords": [
+    "deepseek",
+    "ai",
+    "publications",
+    "llm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Darrylebrown/Deepseek-Repository/issues"
+  },
+  "homepage": "https://github.com/Darrylebrown/Deepseek-Repository#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  },
+  "overrides": {
+    "brace-expansion": "^5.0.8"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  }
+}
