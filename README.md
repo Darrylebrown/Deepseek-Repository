@@ -1,6 +1,6 @@
 # Deepseek-Repository
 
-Publications Compliments from the Deepseek Node
+Publications Completions from the Deepseek Node
 
 A Node.js project that connects to the [DeepSeek](https://www.deepseek.com/) API, receives AI-generated publications (completions), and stores them locally for later review.
 
