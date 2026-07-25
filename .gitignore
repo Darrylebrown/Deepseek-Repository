@@ -1,7 +1,21 @@
+# Secrets
 .env
+
+# Python
 __pycache__/
 .venv/
 venv/
-out/
 *.pyc
+out/
+
+# Node
+node_modules/
+
+# Runtime publication dump (may grow large)
+data/publications.json
+
+# Logs / OS
+*.log
+npm-debug.log*
 .DS_Store
+Thumbs.db

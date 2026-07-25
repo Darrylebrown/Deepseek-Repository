@@ -1,101 +1,83 @@
 # Deepseek-Repository
 
-Publications Compliments from the Deepseek Node
-
-A small, public-safe starter for calling DeepSeek from local scripts and GitHub Actions.
-No API keys live in this repository — they are supplied by a local `.env` file or a
-GitHub Actions secret.
+Publications completions from the DeepSeek node — shared drop zone for **Computer** (Perplexity) and **Deep/Claw** agents.
 
 Publisher: [Gullah Geechee Biz](https://gullahgeecheebiz.com/) · Author: Darryl Elliott Brown
 
-## 1. Get an API key
+## Connection to Computer
 
-Create a key at [platform.deepseek.com](https://platform.deepseek.com).
+1. Deep/Claw produces packs and pushes them here under `data/`.
+2. Computer brand-gates (culture first, soft CTA site only, no Manus links in shippable copy).
+3. Computer builds EPUB/cover + KDP paste and logs the distributor queue.
+4. Slack READY notices: `#all-gullah-geechee-biz` — reply `READY` + paths or `ASIN: B0… · Title`.
 
-## 2. Local setup
+### Drop zones
+
+| Path | Use |
+| --- | --- |
+| `data/packs/` | KDP/D2D submission packets |
+| `data/volumes/` | Volume / encyclopedia descriptions |
+| `data/social/` | Social calendars and captions |
+| `data/publications.json` | Runtime Node store (gitignored) |
+
+See [`data/README.md`](data/README.md) and [`data/INBOX.md`](data/INBOX.md).
+
+## Get an API key
+
+Create a key at [platform.deepseek.com](https://platform.deepseek.com).  
+Add GitHub Actions secret: **Settings → Secrets → Actions → `DEEPSEEK_API_KEY`**.
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-
-cp .env.example .env               # then open .env and paste your key
+cp .env.example .env   # never commit .env
 ```
 
-`.env` is listed in `.gitignore`. **Never commit `.env` or paste a key into any tracked file.**
+## Python path (Computer / local scripts)
 
-## 3. GitHub setup
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python scripts/chat.py "hello"
+python scripts/ggb_pack_draft.py --topic "sweetgrass basket weaving"
+```
 
-In this repository: **Settings → Secrets and variables → Actions → New repository secret**
+## Node path (Deep/Copilot publications client)
 
-- Name: `DEEPSEEK_API_KEY`
-- Value: your key from platform.deepseek.com
+```bash
+npm install
+node src/index.js "Explain transformers in simple terms."
+npm test
+```
 
-Then run the smoke test: **Actions → DeepSeek smoke test → Run workflow**. It prints
-`DEEPSEEK_OK` on success and fails with a clear error if the secret is missing.
+Completions print to the terminal and append to `data/publications.json`.
 
 ## Configuration
 
 | Variable | Default | Purpose |
 | --- | --- | --- |
-| `DEEPSEEK_API_KEY` | *(required)* | Your API key. |
-| `DEEPSEEK_BASE_URL` | `https://api.deepseek.com` | Any OpenAI-compatible endpoint. |
-| `DEEPSEEK_MODEL` | `deepseek-chat` | Model name. |
-| `DEEPSEEK_TIMEOUT` | `120` | Request timeout in seconds. |
+| `DEEPSEEK_API_KEY` | *(required)* | API key |
+| `DEEPSEEK_BASE_URL` | `https://api.deepseek.com` | OpenAI-compatible base |
+| `DEEPSEEK_MODEL` | `deepseek-chat` | Model name |
+| `DEEPSEEK_TIMEOUT` | `120` | Seconds (Python client) |
 
-Because the client speaks the OpenAI-compatible `/v1/chat/completions` API, you can point it
-at a self-hosted runtime instead:
-
-```bash
-# Ollama
-DEEPSEEK_BASE_URL=http://localhost:11434
-DEEPSEEK_MODEL=deepseek-r1
-DEEPSEEK_API_KEY=ollama          # any non-empty value
-
-# RunPod (vLLM / TGI OpenAI-compatible endpoint)
-DEEPSEEK_BASE_URL=https://<your-pod-id>-8000.proxy.runpod.net
-DEEPSEEK_MODEL=deepseek-ai/DeepSeek-V3
-DEEPSEEK_API_KEY=<your-runpod-endpoint-token>
-```
-
-In Actions, `DEEPSEEK_BASE_URL` and `DEEPSEEK_MODEL` are read from repository *variables*
-(**Settings → Secrets and variables → Actions → Variables**), so overriding them never
-requires touching the workflow file.
-
-## Usage
-
-One-shot chat, useful as a smoke test:
-
-```bash
-python scripts/chat.py "hello"
-python scripts/chat.py "summarize this in one line" --model deepseek-reasoner
-```
-
-Draft a Gullah Geechee Biz culture pack:
-
-```bash
-python scripts/ggb_pack_draft.py --topic "sweetgrass basket weaving in the Lowcountry"
-```
-
-This writes `out/<slug>.json` and `out/<slug>.md`. The `out/` directory is gitignored, and
-every pack is a **draft that needs human review** before publication.
-
-## Drop zone
-
-Finished agent output goes in [`data/`](data/), where the team picks it up for KDP and
-social packaging — `data/volumes/` for manuscripts, `data/social/` for calendars,
-`data/packs/` for culture packs. The `out/` directory stays local and gitignored.
-
-[`data/README.md`](data/README.md) covers naming and the brand rules every drop is held to.
-[`data/INBOX.md`](data/INBOX.md) is the checklist for what happens to a drop once it is
-marked ready.
+Ollama / RunPod: set `DEEPSEEK_BASE_URL` + `DEEPSEEK_MODEL` to your OpenAI-compatible endpoint.
 
 ## Layout
 
 ```
-src/deepseek_client.py       chat() helper over the OpenAI-compatible API
-scripts/chat.py              one-shot CLI chat
-scripts/ggb_pack_draft.py    culture pack drafter
-data/                        drop zone for agent output (volumes, social, packs)
-.github/workflows/           DeepSeek smoke test (manual trigger)
+src/deepseek_client.py      Python chat helper
+src/deepseekClient.js       Node DeepSeek client
+src/publicationsStore.js    Node JSON store → data/publications.json
+src/index.js                Node CLI
+scripts/chat.py             Python smoke chat
+scripts/ggb_pack_draft.py   GGB culture pack drafter
+data/packs|volumes|social   Team drop zones
+.github/workflows/          DeepSeek smoke test
+tests/                      Jest unit tests
 ```
+
+## Brand gate (shippable copy)
+
+- Author: Darryl Elliott Brown  
+- Publisher: Gullah Geechee Biz  
+- CTA: https://gullahgeecheebiz.com/  
+- Culture first · no Manus links · no mock dialect · no celebrity name-drops  
