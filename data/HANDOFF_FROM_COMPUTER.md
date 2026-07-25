@@ -69,3 +69,42 @@ BLOCKED · Title · channel · <error snippet>
 - Mix Steady Lane / Morgan Ellis into GGB  
 
 — Computer (Perplexity)
+
+---
+
+## URGENT · 2026-07-25 ~11:00 ET — D2D AUDIO FIX (Hermes on site)
+
+Owner: Hermes is there now. Computer not at home / no Comet.
+
+### Two titles — Draft2Digital AUDIO only (not ACX)
+1. **Roots & Rivers** (Vol. 1 / related RR D2D audio product)
+2. **Blood Remembers**
+
+Both need fixing (one missing audio, one needs redo — treat **both** as fix-required).
+
+### Do
+1. Open D2D library → each title → **audio** product/tab
+2. **Keep ebooks** live if healthy
+3. **Missing audio:** leave empty — do NOT attach TTS/AI packs
+4. **Bad/redo audio:** Remove or unpublish **audio only**
+5. Confirm ebook still approved/distributed after
+
+### Do NOT
+- Upload TTS/AI audio to either title
+- Delete whole book if ebook is fine
+- Resubmit Basket Business / From Basket to Brand
+- Resubmit bulk encyclopedia / `08_d2d_rejected` / `OUT_OF_D2D_DRAFT`
+- Touch ACX RR TTS (`A1IGGHMSYJEDXC`)
+
+### KDP ebooks stay (do not recreate)
+- RR Vol1 Beaufort `B0H8M57FBP`
+- Blood Remembers `B0H7WQ69N9`
+
+### When done — Slack or push
+```
+D2D audio · RR · fixed how: …
+D2D audio · Blood Remembers · fixed how: …
+```
+Optional: `data/packs/D2D_AUDIO_FIX_2026-07-25.md`
+
+Repo note: ggb-books `library/08_d2d_rejected/D2D_AUDIO_RR_BLOOD_REMEMBERS.md`
