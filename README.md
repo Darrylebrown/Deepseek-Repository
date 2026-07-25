@@ -80,11 +80,22 @@ python scripts/ggb_pack_draft.py --topic "sweetgrass basket weaving in the Lowco
 This writes `out/<slug>.json` and `out/<slug>.md`. The `out/` directory is gitignored, and
 every pack is a **draft that needs human review** before publication.
 
+## Drop zone
+
+Finished agent output goes in [`data/`](data/), where the team picks it up for KDP and
+social packaging — `data/volumes/` for manuscripts, `data/social/` for calendars,
+`data/packs/` for culture packs. The `out/` directory stays local and gitignored.
+
+[`data/README.md`](data/README.md) covers naming and the brand rules every drop is held to.
+[`data/INBOX.md`](data/INBOX.md) is the checklist for what happens to a drop once it is
+marked ready.
+
 ## Layout
 
 ```
 src/deepseek_client.py       chat() helper over the OpenAI-compatible API
 scripts/chat.py              one-shot CLI chat
 scripts/ggb_pack_draft.py    culture pack drafter
+data/                        drop zone for agent output (volumes, social, packs)
 .github/workflows/           DeepSeek smoke test (manual trigger)
 ```
