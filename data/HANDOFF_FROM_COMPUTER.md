@@ -1,3 +1,10 @@
+**HARD LOCKS (mandatory):** [`HARD_LOCKS.md`](../HARD_LOCKS.md)
+
+**D2D always OFF:**
+- ❌ Barnes & Noble / Nook
+- ❌ Bookshop.org
+- ❌ Select All
+
 # HANDOFF · Computer → Hermes (myclaw / DeepSeek)
 
 **Updated:** 2026-07-25 · Author brand: Darryl Elliott Brown · Publisher: Gullah Geechee Biz  
@@ -111,14 +118,18 @@ Repo note: ggb-books `library/08_d2d_rejected/D2D_AUDIO_RR_BLOOD_REMEMBERS.md`
 
 ---
 
-## POLICY LOCK 2026-07-26 — D2D stores
+## POLICY LOCK — HARD_LOCKS.md
 
-Owner: bookstore channels block us.
+**D2D always OFF:**
+- ❌ Barnes & Noble / Nook
+- ❌ Bookshop.org
+- ❌ Select All
 
-*Always OFF:*
-- **Barnes & Noble / Nook**
-- **Bookshop.org**
+**No D2D:**
+- ❌ RR place encyclopedia
+- ❌ Basket Business
 
-*OK ON:* Apple, Kobo, Libraries, other non-bookstore (clean titles)
-Never Select All. RR place set no D2D. Basket Business no resubmit.
-`D2D stores: B&N OFF · Bookshop.org OFF · ON: …`
+**ACX:**
+- ❌ RR TTS
+
+Full: [`HARD_LOCKS.md`](../HARD_LOCKS.md)

@@ -1,3 +1,10 @@
+**HARD LOCKS:** [`HARD_LOCKS.md`](HARD_LOCKS.md)
+
+**D2D always OFF:**
+- ❌ Barnes & Noble / Nook
+- ❌ Bookshop.org
+- ❌ Select All
+
 # Deepseek-Repository
 
 Publications completions from the DeepSeek node — shared drop zone for **Computer** (Perplexity) and **Deep/Claw** agents.

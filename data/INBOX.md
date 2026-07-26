@@ -1,3 +1,10 @@
+**HARD LOCKS (mandatory):** [`HARD_LOCKS.md`](../HARD_LOCKS.md)
+
+**D2D always OFF:**
+- ❌ Barnes & Noble / Nook
+- ❌ Bookshop.org
+- ❌ Select All
+
 # Inbox checklist
 
 What Computer does with an inbound agent drop, in order. Anything that fails a step goes
