@@ -111,16 +111,13 @@ Repo note: ggb-books `library/08_d2d_rejected/D2D_AUDIO_RR_BLOOD_REMEMBERS.md`
 
 ---
 
-## POLICY LOCK 2026-07-26 — D2D stores
+## POLICY LOCK 2026-07-26 — D2D stores (CORRECTED)
 
-Owner: **Select All hurt us.** Bookstores block the books.
+Owner verify: **only The Bookstore blocks us.**
 
-- **NEVER Select All** on Draft2Digital
-- **Barnes & Noble / Nook = OFF** (that bookstore — do not enable)
-- **Apple Books = OFF** unless owner says on
-- **Kobo = OFF** unless owner says on
-- Prefer **Libraries only**
-- Unsure → OFF
-- RR place encyclopedia: **no D2D at all**
-- Basket Business family: no D2D resubmit
-- Slack: `D2D stores ON: Libraries (only)`
+- **Barnes & Noble / Nook = OFF always**
+- **Apple, Kobo, Libraries, other stores = OK to turn ON** (clean titles)
+- Still **never Select All** (so B&N does not sneak on)
+- KDP Select titles: no wide retail
+- RR place encyclopedia: no D2D · Basket Business: no resubmit
+- Slack: `D2D stores: B&N/Nook OFF · ON: …`
