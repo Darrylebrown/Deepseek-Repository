@@ -108,3 +108,16 @@ D2D audio · Blood Remembers · fixed how: …
 Optional: `data/packs/D2D_AUDIO_FIX_2026-07-25.md`
 
 Repo note: ggb-books `library/08_d2d_rejected/D2D_AUDIO_RR_BLOOD_REMEMBERS.md`
+
+---
+
+## POLICY LOCK 2026-07-26 — D2D stores
+
+Owner: **Select All hurt us.**
+
+- On Draft2Digital: **NEVER Select All**
+- Only enable **owner-approved** retailer checkboxes
+- When unsure → leave store OFF
+- RR place encyclopedia (~49): **no D2D at all** (display + translate + other channels)
+- Basket Business family: no D2D resubmit
+- Slack after any D2D ship: `D2D stores ON: …`
