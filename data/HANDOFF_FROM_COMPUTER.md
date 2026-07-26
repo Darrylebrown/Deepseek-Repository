@@ -133,3 +133,14 @@ Repo note: ggb-books `library/08_d2d_rejected/D2D_AUDIO_RR_BLOOD_REMEMBERS.md`
 - ❌ RR TTS
 
 Full: [`HARD_LOCKS.md`](../HARD_LOCKS.md)
+
+## NEW COMMISSION 2026-07-26 — Institutional Encyclopedia 50
+
+Owner commissioned full production brief:
+
+**The Comprehensive Encyclopedia of Gullah Geechee Culture** (50 vols · ~12k words each)
+
+- Brief: `data/encyclopedia_institutional_50/PRODUCTION_BRIEF.md`
+- Index: `data/encyclopedia_institutional_50/VOLUME_INDEX.csv`
+- Private canonical: https://github.com/Darrylebrown/ggb-books/blob/main/library/encyclopedia_institutional_50/PRODUCTION_BRIEF.md
+- Not RR place set. Obey HARD_LOCKS. Computer = bookshelf packs when asked.
