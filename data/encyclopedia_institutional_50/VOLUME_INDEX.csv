@@ -1,51 +1,51 @@
 volume,title,status,words_target,notes
-1,"Sweetgrass Basket Weaving: Technique, Memory, and Living Art",match_completed_tone_ref,12000,
-2,History & Origins of Gullah Geechee Culture,match_completed_tone_ref,12000,
-3,"Music, Song, and Ring Shout Traditions",match_completed_tone_ref,12000,
-4,"Dance, Performance, and Expressive Arts",match_completed_tone_ref,12000,
-5,"Woodworking, Metalwork, and Functional Arts",match_completed_tone_ref,12000,
-6,"Architecture, Dwellings, and the Built Environment",template_ready,12000,
-7,"Clothing, Adornment, and Personal Arts",template_ready,12000,
-8,Contemporary Artistic Expressions and Innovation,template_ready,12000,
-9,African Roots and the Rice Coast Heritage,template_ready,12000,
-10,The Plantation Era and Enslaved Life,template_ready,12000,
-11,"Emancipation, Reconstruction, and Early Freedom",template_ready,12000,
-12,Twentieth-Century Transformations,template_ready,12000,
-13,Sea Island and Coastal Community Histories,template_ready,12000,
-14,"Migration, Diaspora, and Global Connections",template_ready,12000,
-15,Specific Plantation Case Studies and Community Narratives,template_ready,12000,
-16,"The Gullah Language: Structure, Phonology, and African Retentions",template_ready,12000,
-17,"Oral Traditions, Storytelling, and Folktales",template_ready,12000,
-18,"Proverbs, Naming Practices, and Expressive Speech",template_ready,12000,
-19,"Documentation, Turner's Research, and Linguistic Legacy",template_ready,12000,
-20,"Language Preservation, Revitalization, and Education",template_ready,12000,
-21,African Spiritual Foundations and Lowcountry Adaptations,template_ready,12000,
-22,"Christianity, Praise Houses, and the Ring Shout",template_ready,12000,
-23,"Ancestor Veneration, Healing, and Spiritual Practices",template_ready,12000,
-24,"Funerals, Memorials, and Life-Cycle Rituals",template_ready,12000,
-25,Contemporary Spirituality and Interfaith Expressions,template_ready,12000,
-26,Family Structures and Kinship Systems,template_ready,12000,
-27,Maker Narratives and Artisan Lineages,template_ready,12000,
-28,Women's Roles and Leadership,template_ready,12000,
-29,"Children, Education, and Cultural Transmission",template_ready,12000,
-30,"Elders, Wisdom Keepers, and Community Memory",template_ready,12000,
-31,Specific Family and Community Profiles,template_ready,12000,
-32,"Resilience, Resistance, and Social Movements",template_ready,12000,
-33,Rice Cultivation and Agricultural Knowledge,template_ready,12000,
-34,"Seafood, One-Pot Cooking, and Daily Foodways",template_ready,12000,
-35,"Traditional Medicines, Herbs, and Healing Foods",template_ready,12000,
-36,"Land, Marshes, and Environmental Stewardship",template_ready,12000,
-37,Sustainable Practices and Contemporary Agriculture,template_ready,12000,
-38,"Cuisine, Hospitality, and Cultural Identity",template_ready,12000,
-39,Traditional Economies and Craft Markets,template_ready,12000,
-40,"Roadside Markets, Tourism, and Cultural Commerce",template_ready,12000,
-41,"Entrepreneurship, Cooperatives, and Generational Wealth",template_ready,12000,
-42,"Land Ownership, Heirs' Property, and Legal Histories",template_ready,12000,
-43,Modern Business and Cultural Enterprises,template_ready,12000,
-44,Traditional Education and Knowledge Transmission,template_ready,12000,
-45,"Formal Education, Language Policy, and Cultural Survival",template_ready,12000,
-46,"Health, Wellness, and Community Care",template_ready,12000,
-47,"Media, Representation, and Digital Culture",template_ready,12000,
-48,"Youth, Identity, and Future Visions",template_ready,12000,
-49,Gullah Geechee in Global Context and Comparative Creolization,template_ready,12000,
-50,Building the International African American Museum: Charleston's Legacy and the Gullah Geechee Story,match_completed_tone_ref,12000,
+1,"Sweetgrass Basket Weaving: Technique, Memory, and Living Art",tone_reference_completed,12000,Match tone; team may refresh to new spine
+2,History & Origins of Gullah Geechee Culture,tone_reference_completed,12000,Match tone; team may refresh to new spine
+3,"Music, Song, and Ring Shout Traditions",tone_reference_completed,12000,Match tone; team may refresh to new spine
+4,"Dance, Performance, and Expressive Arts",tone_reference_completed,12000,Match tone; team may refresh to new spine
+5,"Woodworking, Metalwork, and Functional Arts",tone_reference_completed,12000,Match tone; team may refresh to new spine
+6,"Architecture, Dwellings, and the Built Environment",awaiting_team_ms,12000,Team producing; Computer packaging standby
+7,"Clothing, Adornment, and Personal Arts",awaiting_team_ms,12000,Team producing; Computer packaging standby
+8,Contemporary Artistic Expressions and Innovation,awaiting_team_ms,12000,Team producing; Computer packaging standby
+9,African Roots and the Rice Coast Heritage,awaiting_team_ms,12000,Team producing; Computer packaging standby
+10,The Plantation Era and Enslaved Life,awaiting_team_ms,12000,Team producing; Computer packaging standby
+11,"Emancipation, Reconstruction, and Early Freedom",awaiting_team_ms,12000,Team producing; Computer packaging standby
+12,Twentieth-Century Transformations,awaiting_team_ms,12000,Team producing; Computer packaging standby
+13,Sea Island and Coastal Community Histories,awaiting_team_ms,12000,Team producing; Computer packaging standby
+14,"Migration, Diaspora, and Global Connections",awaiting_team_ms,12000,Team producing; Computer packaging standby
+15,Specific Plantation Case Studies and Community Narratives,awaiting_team_ms,12000,Team producing; Computer packaging standby
+16,"The Gullah Language: Structure, Phonology, and African Retentions",awaiting_team_ms,12000,Team producing; Computer packaging standby
+17,"Oral Traditions, Storytelling, and Folktales",awaiting_team_ms,12000,Team producing; Computer packaging standby
+18,"Proverbs, Naming Practices, and Expressive Speech",awaiting_team_ms,12000,Team producing; Computer packaging standby
+19,"Documentation, Turner's Research, and Linguistic Legacy",awaiting_team_ms,12000,Team producing; Computer packaging standby
+20,"Language Preservation, Revitalization, and Education",awaiting_team_ms,12000,Team producing; Computer packaging standby
+21,African Spiritual Foundations and Lowcountry Adaptations,awaiting_team_ms,12000,Team producing; Computer packaging standby
+22,"Christianity, Praise Houses, and the Ring Shout",awaiting_team_ms,12000,Team producing; Computer packaging standby
+23,"Ancestor Veneration, Healing, and Spiritual Practices",awaiting_team_ms,12000,Team producing; Computer packaging standby
+24,"Funerals, Memorials, and Life-Cycle Rituals",awaiting_team_ms,12000,Team producing; Computer packaging standby
+25,Contemporary Spirituality and Interfaith Expressions,awaiting_team_ms,12000,Team producing; Computer packaging standby
+26,Family Structures and Kinship Systems,awaiting_team_ms,12000,Team producing; Computer packaging standby
+27,Maker Narratives and Artisan Lineages,awaiting_team_ms,12000,Team producing; Computer packaging standby
+28,Women's Roles and Leadership,awaiting_team_ms,12000,Team producing; Computer packaging standby
+29,"Children, Education, and Cultural Transmission",awaiting_team_ms,12000,Team producing; Computer packaging standby
+30,"Elders, Wisdom Keepers, and Community Memory",awaiting_team_ms,12000,Team producing; Computer packaging standby
+31,Specific Family and Community Profiles,awaiting_team_ms,12000,Team producing; Computer packaging standby
+32,"Resilience, Resistance, and Social Movements",awaiting_team_ms,12000,Team producing; Computer packaging standby
+33,Rice Cultivation and Agricultural Knowledge,awaiting_team_ms,12000,Team producing; Computer packaging standby
+34,"Seafood, One-Pot Cooking, and Daily Foodways",awaiting_team_ms,12000,Team producing; Computer packaging standby
+35,"Traditional Medicines, Herbs, and Healing Foods",awaiting_team_ms,12000,Team producing; Computer packaging standby
+36,"Land, Marshes, and Environmental Stewardship",awaiting_team_ms,12000,Team producing; Computer packaging standby
+37,Sustainable Practices and Contemporary Agriculture,awaiting_team_ms,12000,Team producing; Computer packaging standby
+38,"Cuisine, Hospitality, and Cultural Identity",awaiting_team_ms,12000,Team producing; Computer packaging standby
+39,Traditional Economies and Craft Markets,awaiting_team_ms,12000,Team producing; Computer packaging standby
+40,"Roadside Markets, Tourism, and Cultural Commerce",awaiting_team_ms,12000,Team producing; Computer packaging standby
+41,"Entrepreneurship, Cooperatives, and Generational Wealth",awaiting_team_ms,12000,Team producing; Computer packaging standby
+42,"Land Ownership, Heirs' Property, and Legal Histories",awaiting_team_ms,12000,Team producing; Computer packaging standby
+43,Modern Business and Cultural Enterprises,awaiting_team_ms,12000,Team producing; Computer packaging standby
+44,Traditional Education and Knowledge Transmission,awaiting_team_ms,12000,Team producing; Computer packaging standby
+45,"Formal Education, Language Policy, and Cultural Survival",awaiting_team_ms,12000,Team producing; Computer packaging standby
+46,"Health, Wellness, and Community Care",awaiting_team_ms,12000,Team producing; Computer packaging standby
+47,"Media, Representation, and Digital Culture",awaiting_team_ms,12000,Team producing; Computer packaging standby
+48,"Youth, Identity, and Future Visions",awaiting_team_ms,12000,Team producing; Computer packaging standby
+49,Gullah Geechee in Global Context and Comparative Creolization,awaiting_team_ms,12000,Team producing; Computer packaging standby
+50,Building the International African American Museum: Charleston's Legacy and the Gullah Geechee Story,tone_reference_completed,12000,Match tone; team may refresh to new spine

@@ -144,3 +144,12 @@ Owner commissioned full production brief:
 - Index: `data/encyclopedia_institutional_50/VOLUME_INDEX.csv`
 - Private canonical: https://github.com/Darrylebrown/ggb-books/blob/main/library/encyclopedia_institutional_50/PRODUCTION_BRIEF.md
 - Not RR place set. Obey HARD_LOCKS. Computer = bookshelf packs when asked.
+
+## PREP READY 2026-07-26 — Encyclopedia 50 packaging
+
+Owner tasked production team; Computer prepared drop zones + templates (no parallel full draft).
+
+- Runbook: `data/encyclopedia_institutional_50/PREP_RUNBOOK.md`
+- Templates: skeleton MS, METADATA, KDP paste, QA, cover brief
+- Private packs land in ggb-books `library/encyclopedia_institutional_50/incoming/`
+- When MS ready: reply `READY · encyclopedia vol NN · path`
