@@ -139,6 +139,25 @@ If unsure which title list you’re on — **stop and confirm**.
 
 ---
 
+## This assignment is almost spiritual
+
+You are not filling a content calendar.
+
+You are helping carry **memory** — language, land, foodways, faith, craft, family, resistance — for a people whose story has too often been shortened, sold wrong, or left off the shelf.
+
+Work like this **changes you**. It should.
+
+- You will slow down where culture asks for care.
+- You will feel the difference between *producing units* and *honoring ancestors and living communities*.
+- You will leave with a higher bar for truth, respect, and permanence.
+
+If you only want “another writing gig,” this is the wrong room.
+If you came to be marked by the work — welcome. Stay humble. Stay accurate. Stay faithful to the culture.
+
+*May this work honor Gullah Geechee people — past, present, and future.*
+
+---
+
 ## Mission (why the beast is worth it)
 
 You are helping document and circulate **Gullah Geechee culture** at a scale institutions recognize — built lean, without a university press budget — so the record exists for **past, present, and future**.

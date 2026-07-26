@@ -18,6 +18,9 @@
 ## Method
 Waves: EN stable → libraries/institutions → **one lang at a time** → audio on winners → pins for live editions only.
 
+## Spirit
+This assignment can change you forever. Memory work — not content mill. Humble · accurate · faithful to the culture.
+
 ## Mission
 Gullah Geechee cultural reference at yes-quality · Author Darryl Elliott Brown · Publisher Gullah Geechee Biz · https://gullahgeecheebiz.com/
 
