@@ -153,3 +153,8 @@ Owner tasked production team; Computer prepared drop zones + templates (no paral
 - Templates: skeleton MS, METADATA, KDP paste, QA, cover brief
 - Private packs land in ggb-books `library/encyclopedia_institutional_50/incoming/`
 - When MS ready: reply `READY · encyclopedia vol NN · path`
+
+## NEW TEAM HANDOFF 2026-07-26
+Owner onboarded a team that thought this was "just writing." It is not.
+→ `data/encyclopedia_first50_team/TEAM_HANDOFF_NOT_JUST_WRITING.md`
+→ one-pager: `data/encyclopedia_first50_team/TEAM_ONE_PAGER.md`
